@@ -1,0 +1,131 @@
+
+@media (min-width: 800px){
+  .navbar-expand-custom {
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+  }
+  .navbar-expand-custom .navbar-nav {
+      flex-direction: row;
+  }
+  .navbar-expand-custom .navbar-nav .nav-link {
+      padding-right: .5rem;
+      padding-left: .5rem;
+  }
+  .navbar-expand-custom .navbar-collapse {
+      display: flex!important;
+  }
+  .navbar-expand-custom .navbar-toggler {
+      display: none;
+  }
+}
+
+.top-container
+{
+ background-color: white;
+ position: relative;
+ padding-top: 50px;
+ text-align: center;
+ padding-bottom: 260px;
+
+/* background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.1)), url("ipho.jpg") no-repeat center center;*/
+ background: url("ipho.jpg") no-repeat center center;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+.about-container
+{
+ background-color: black;
+ position: relative;
+ padding-top: 50px;
+ padding-bottom: 200px;
+}
+.aboutp{
+    color: white;
+    padding-left: 20%;
+    padding-right: 15%;
+}
+li { color: black; } /* bullet */
+li span { color: white; } /* text */
+
+body
+{
+    margin: 0px;
+    font-family: 'Spartan', sans-serif;
+}
+
+.change-content:after{
+    content : 'Software Engineer';
+    animation: animate 5s infinite linear;
+}
+@keyframes animate{
+    60%{
+        content: 'Competitive Programmer';
+    }
+    90%{
+        content: 'Deep Learning Enthusiast';
+    }
+}
+
+#particles-js {
+    background-color: black;
+}
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+}  
+.codingprofiles{
+    background-color: white;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+.skills{
+    background-color : white;
+}
+.bg-company-black {
+    background-color: black !important;
+}
+.projects{
+    background-color: black;
+}
+html {
+    scroll-behavior: smooth;
+}
+.achieve{
+    background-color: white;
+}
+.bottom-container{
+    text-align: center;
+    background-color: black;
+    margin: 30px auto 0px auto;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+.footer-link
+{
+    color: #11999E;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 20px;
+    width: 50%;
+}
+.dif:hover
+{
+    color: white;
+    text-decoration: none;
+}
+.nav-link{
+    cursor: pointer;
+}
+.navbar-brand{
+    cursor: pointer;
+}
